@@ -6,7 +6,7 @@ contact info - CHECK
 front page - CHECK
 shared layout - Check
 partial Views (navbar - footer) - CHECK
-Bundling - DO
+Bundling - check?
 CDN - DO
 google analytics - CHECK
 error conditions 400, 500's - CHECK
