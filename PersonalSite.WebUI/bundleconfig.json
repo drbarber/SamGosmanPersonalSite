@@ -1,4 +1,4 @@
-﻿{
+﻿
   [
     {
       "outputFileName": "wwwroot/css/site.min.css",
@@ -22,4 +22,4 @@
       "sourceMap": false
     }
   ]
-}
+

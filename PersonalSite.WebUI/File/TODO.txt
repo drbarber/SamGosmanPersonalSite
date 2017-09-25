@@ -7,10 +7,12 @@ front page - CHECK
 shared layout - Check
 partial Views (navbar - footer) - CHECK
 Bundling - check?
-CDN - DO
+CDN - CHECK
 google analytics - CHECK
 error conditions 400, 500's - CHECK
 twitter bootstrap - CHECK
 Azure - CHECK
 github - CHECK
 Jquery - CHECK
+
+move analytics to seperate file -  CHECK
