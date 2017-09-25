@@ -1,9 +1,36 @@
-﻿
-@Html.ActionLink("Home", "Index", null,
-    new { @class = "btn btn-block btn-default btn-lg" })
-@Html.ActionLink("Resume", "Resume",null,
-    new { @class = "btn btn-block btn-default btn-lg"})
-@Html.ActionLink("Social", "SocialMedia", null,
-    new { @class = "btn btn-block btn-default btn-lg"})
-@Html.ActionLink("Contact", "Contact", null,
-    new { @class = "btn btn-block btn-default btn-lg" })
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" style="width:200px;">
+    <div class="panel-info">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse1">Menu</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse colapse">
+                <ul class="list-group">
+                 <li class="list-group-item"> @Html.ActionLink("Home", "Index", null,
+                         new { @class = "btn btn-block btn-default btn-lg" })</li>
+                <li class="list-group-item">@Html.ActionLink("Resume", "Resume", null,
+                        new { @class = "btn btn-block btn-default btn-lg" })</li>
+                <li class="list-group-item">@Html.ActionLink("Social", "SocialMedia", null,
+                        new { @class = "btn btn-block btn-default btn-lg" })</li>
+                <li class="list-group-item">@Html.ActionLink("Contact", "Contact", null,
+                        new { @class = "btn btn-block btn-default btn-lg" })</li>
+                    </ul>
+                <div class="panel-footer"></div>
+</div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
+
