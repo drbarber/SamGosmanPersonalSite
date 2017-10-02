@@ -1,4 +1,5 @@
-﻿using System.Web.Optimization;
+﻿using System.Web;
+using System.Web.Optimization;
 
 namespace PersonalSite.WebUI.App_Start
 {
@@ -6,8 +7,16 @@ namespace PersonalSite.WebUI.App_Start
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/bootstrap.css"));
-            bundles.Add(new ScriptBundle("~/Scripts").Include("~/Scripts/*.js"));
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                "~/Content/bootstrap.css",
+                "~/Content/test.css",
+                "~/Content/ooer.css"));
+            bundles.Add(new ScriptBundle("~/Scripts").Include(
+                "~/Scripts/bootstrap.js",
+                "~/Scripts/GoogleAnalytics.js",
+                "~/Scripts/GTMFileDownload.js",
+                "~/Scripts/modernizr-*",
+                "~/Scripts/MoveImage.js"));
         }
     }
 }

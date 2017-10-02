@@ -1,6 +1,6 @@
 ﻿#top-image {
     padding: 70px;
-    background: url('https://cdn.allwallpaper.in/wallpapers/1440x960/15611/flora-blurred-background-bokeh-branches-fences-1440x960-wallpaper.jpg') center fixed;
+    background: url('../Images/flower-background.jpg') center fixed;
     top: 0;
     width: 100%;
     height: 100%;
@@ -11,7 +11,7 @@
 @media only screen and (max-width : 480px){
     #top-image {
         padding: 70px;
-        background: url('../Images/background-galaxy.jpg') no-repeat center center fixed;
+        background: url('../Images/flower-background.jpg') no-repeat center center fixed;
         top: 0;
         width: 100%;
         height: 100%;

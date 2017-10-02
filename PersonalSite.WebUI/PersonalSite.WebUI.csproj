@@ -117,8 +117,6 @@
     <Content Include="Images\background-galaxy.jpg" />
     <Content Include="Images\flower-background.jpg" />
     <Content Include="Images\github-sociocon.png" />
-    <Content Include="Images\github.png" />
-    <Content Include="Images\iuLogo.gif" />
     <Content Include="Images\LinkedIn.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js">
@@ -158,6 +156,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactMe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -181,7 +180,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PersonalSite.Domain\PersonalSite.Domain.csproj">
