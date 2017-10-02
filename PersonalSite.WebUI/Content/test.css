@@ -1,17 +1,28 @@
-﻿body {
-    padding-top: 70px;
-            background: url("../../Images/background-galaxy.jpg")no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+﻿#top-image {
+    padding: 70px;
+    background: url('https://cdn.allwallpaper.in/wallpapers/1440x960/15611/flora-blurred-background-bokeh-branches-fences-1440x960-wallpaper.jpg') center fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: calc(100% + 75px);
+
 }
-#top-image {
-background:url('https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/8/8905/red-rocks-park-o.jpg') -25px -50px;
-position:fixed ;
-top:0;
-width:100%;
-z-index:0;
-  height:100%;
-  background-size: calc(100% + 50px);
+
+@media only screen and (max-width : 480px){
+    #top-image {
+        padding: 70px;
+        background: url('../Images/background-galaxy.jpg') no-repeat center center fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+img.SMThumbnail {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
 }

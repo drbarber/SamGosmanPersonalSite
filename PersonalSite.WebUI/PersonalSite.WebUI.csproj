@@ -115,6 +115,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\0925171109.jpg" />
     <Content Include="Images\background-galaxy.jpg" />
+    <Content Include="Images\flower-background.jpg" />
     <Content Include="Images\github-sociocon.png" />
     <Content Include="Images\github.png" />
     <Content Include="Images\iuLogo.gif" />
