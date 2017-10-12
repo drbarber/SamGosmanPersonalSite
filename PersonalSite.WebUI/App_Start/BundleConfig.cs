@@ -7,6 +7,8 @@ namespace PersonalSite.WebUI.App_Start
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
+            BundleTable.EnableOptimizations = true;
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
                 "~/Content/test.css",

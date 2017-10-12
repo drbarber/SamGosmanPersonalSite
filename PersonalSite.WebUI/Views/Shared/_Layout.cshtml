@@ -5,18 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/Content/bootstrap.css" rel="stylesheet"/>
     <link href="~/Content/test.css" rel="stylesheet" />
-    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    
 </head>
 <body style="color:honeydew" id="top-image">
-    <div id="categories" class="col-xs-3">
+    <div id="categories" class="row">
         @Html.Action("Menu")
     </div>
-    <div class="col-xs-8 text-white">
-        @RenderBody()
+    <div class="container">
+        <div class="col-xs-12 text-white">
+            @RenderBody()
+        </div>
     </div>
+    
+    
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <script src="~/Scripts/MoveImage.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106883908-1"></script>
+    <script src="~/Scripts/GoogleAnalytics.js"></script>
+    <!-- Google Tag Manager -->
+    <script src="~/Scripts/GTMFileDownload.js"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56CNLFF"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script>
+        (function (Helper) {
+            $(function () {
+                Helper.MoveImage();
+            });
+        })(MoveImage);
+    </script>
 </body>
 </html>
